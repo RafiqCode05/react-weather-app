@@ -46,7 +46,7 @@ const WeatherApp = () => {
                         {weather.weather[0].description}
                     </p>
                     <p className="weather-temp">
-                        Temperatur: {weather.main.temp}°C
+                        Temperatur: {weather.main.temp.toFixed(0)}°C
                     </p>
                     <p className="weather-humidity">
                         Rütubət : {weather.main.humidity}%
